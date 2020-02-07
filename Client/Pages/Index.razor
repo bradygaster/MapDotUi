@@ -3,10 +3,7 @@
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JSRuntime
 
-<h1>Incoming Messages</h1>
-
-<strong>Hub URL:</strong>
-<span>@uri</span>
+<div id="map"></div>
 
 @code {
     HubConnection hubConnection;
@@ -32,6 +29,8 @@
             });
 
         await hubConnection.StartAsync();
+
+        JSRuntime.InvokeVoidAsync("initMap");
     }
 
     public bool IsConnected => hubConnection.State == HubConnectionState.Connected;
