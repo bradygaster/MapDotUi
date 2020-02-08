@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: ingress
+spec:
+  rules:
+  - host: <your-dns-prefix>.<region>.cloudapp.azure.com
+    http:
+      paths:
+      - backend:
+          serviceName: mapdotui
+          servicePort: 80
+        path: /(.*)
+status:
+  loadBalancer:
+    ingress:
+    - {}

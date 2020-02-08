@@ -3,7 +3,11 @@
       "ms-vscode.csharp",
       "formulahendry.dotnet-test-explorer",
       "ms-vscode.vscode-node-azure-pack",
+      "ms-azuretools.vscode-docker",
       "ms-kubernetes-tools.vscode-kubernetes-tools",
-      "redhat.vscode-yaml"
+      "ipedrazas.kubernetes-snippets",
+      "ms-kubernetes-tools.vscode-aks-tools",
+      "redhat.vscode-yaml",
+      "ms-vscode.azurecli"
     ]
 }
