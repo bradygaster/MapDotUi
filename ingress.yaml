@@ -6,7 +6,7 @@ metadata:
   name: ingress
 spec:
   rules:
-  - host: <your-dns-prefix>.<region>.cloudapp.azure.com
+  - host: <your-prefix-here>.<your-region-here>.cloudapp.azure.com
     http:
       paths:
       - backend:

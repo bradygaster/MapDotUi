@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace workspace.Shared
+namespace MapDotUi.Shared
 {
     public class WeatherForecast
     {

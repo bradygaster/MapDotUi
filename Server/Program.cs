@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace workspace.Server
+namespace MapDotUi.Server
 {
     public class Program
     {

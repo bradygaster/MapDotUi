@@ -9,7 +9,7 @@
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build",
-        "program": "${workspaceFolder}/Server/bin/Debug/netcoreapp3.1/workspace.Server.dll",
+        "program": "${workspaceFolder}/Server/bin/Debug/netcoreapp3.1/MapDotUi.Server.dll",
         "args": [],
         "cwd": "${workspaceFolder}/Server",
         "stopAtEntry": false,
@@ -36,7 +36,7 @@
         "request": "launch",
         "preLaunchTask": "docker-run: debug",
         "netCore": {
-            "appProject": "${workspaceFolder}/Server/workspace.Server.csproj"
+            "appProject": "${workspaceFolder}/Server/MapDotUi.Server.csproj"
         }
     }
 ]

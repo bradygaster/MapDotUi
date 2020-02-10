@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Server/workspace.Server.csproj",
+                "${workspaceFolder}/Server/MapDotUi.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Server/workspace.Server.csproj",
+                "${workspaceFolder}/Server/MapDotUi.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Server/workspace.Server.csproj",
+                "${workspaceFolder}/Server/MapDotUi.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -52,7 +52,7 @@
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Server/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/Server/MapDotUi.Server.csproj"
             }
         },
         {
@@ -68,7 +68,7 @@
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Server/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/Server/MapDotUi.Server.csproj"
             }
         },
         {
@@ -79,7 +79,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Server/workspace.Server.csproj",
+                "appProject": "${workspaceFolder}/Server/MapDotUi.Server.csproj",
                 "enableDebugging": true
             }
         },
@@ -91,7 +91,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Server/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/Server/MapDotUi.Server.csproj"
             }
         }
     ]

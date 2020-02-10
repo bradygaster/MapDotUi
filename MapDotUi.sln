@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.0.0
 MinimumVisualStudioVersion = 16.0.0.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "workspace.Server", "Server\workspace.Server.csproj", "{9FEF5914-A4D7-41CA-848C-E1AB5E83EEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapDotUi.Server", "Server\MapDotUi.Server.csproj", "{9FEF5914-A4D7-41CA-848C-E1AB5E83EEE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "workspace.Client", "Client\workspace.Client.csproj", "{150222B8-6320-482D-8E0F-EBCCC457CC0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapDotUi.Client", "Client\MapDotUi.Client.csproj", "{150222B8-6320-482D-8E0F-EBCCC457CC0B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "workspace.Shared", "Shared\workspace.Shared.csproj", "{04AF2D9A-DAF5-4022-BDC8-F825DCD6DAA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapDotUi.Shared", "Shared\MapDotUi.Shared.csproj", "{04AF2D9A-DAF5-4022-BDC8-F825DCD6DAA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

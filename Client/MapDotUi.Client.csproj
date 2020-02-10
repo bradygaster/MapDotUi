@@ -13,7 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="3.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Shared\workspace.Shared.csproj" />
+    <ProjectReference Include="..\Shared\MapDotUi.Shared.csproj" />
   </ItemGroup>
 
 </Project>

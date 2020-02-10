@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: mapdotui
-        image: <your-registry-prefix>.azurecr.io/mapdotui:latest
+        image: <your-prefix-here>.azurecr.io/mapdotui:latest
         resources:
           limits:
             memory: "128Mi"

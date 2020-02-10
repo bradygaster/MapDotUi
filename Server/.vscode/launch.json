@@ -6,7 +6,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/MapDotUi.Server.csproj"
             }
         }
     ]

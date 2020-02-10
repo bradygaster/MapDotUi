@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\workspace.Client.csproj" />
-    <ProjectReference Include="..\Shared\workspace.Shared.csproj" />
+    <ProjectReference Include="..\Client\MapDotUi.Client.csproj" />
+    <ProjectReference Include="..\Shared\MapDotUi.Shared.csproj" />
   </ItemGroup>
 
 </Project>

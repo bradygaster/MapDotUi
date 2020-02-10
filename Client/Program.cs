@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.AspNetCore.Blazor.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace workspace.Client
+namespace MapDotUi.Client
 {
     public class Program
     {

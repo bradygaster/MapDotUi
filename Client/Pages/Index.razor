@@ -30,7 +30,7 @@
 
         await hubConnection.StartAsync();
 
-        JSRuntime.InvokeVoidAsync("initMap");
+        await JSRuntime.InvokeVoidAsync("initMap");
     }
 
     public bool IsConnected => hubConnection.State == HubConnectionState.Connected;

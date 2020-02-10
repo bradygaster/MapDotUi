@@ -14,7 +14,7 @@
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/MapDotUi.Server.csproj"
             }
         },
         {
@@ -30,7 +30,7 @@
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/MapDotUi.Server.csproj"
             }
         },
         {
@@ -41,7 +41,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/workspace.Server.csproj",
+                "appProject": "${workspaceFolder}/MapDotUi.Server.csproj",
                 "enableDebugging": true
             }
         },
@@ -53,7 +53,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/workspace.Server.csproj"
+                "appProject": "${workspaceFolder}/MapDotUi.Server.csproj"
             }
         }
     ]

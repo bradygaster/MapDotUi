@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["workspace.sln", "."]
-COPY ["Client/workspace.Client.csproj", "Client/"]
-COPY ["Server/workspace.Server.csproj", "Server/"]
-COPY ["Shared/workspace.Shared.csproj", "Shared/"]
+COPY ["MapDotUi.sln", "."]
+COPY ["Client/MapDotUi.Client.csproj", "Client/"]
+COPY ["Server/MapDotUi.Server.csproj", "Server/"]
+COPY ["Shared/MapDotUi.Shared.csproj", "Shared/"]
 COPY . .
 WORKDIR "/src"
 RUN dotnet build -c Release -o /app/build
@@ -19,4 +19,4 @@ RUN dotnet publish -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "workspace.Server.dll"]
+ENTRYPOINT ["dotnet", "MapDotUi.Server.dll"]
