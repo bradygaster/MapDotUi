@@ -8,7 +8,7 @@ metadata:
   name: mapdot-ingress
 spec:
   rules:
-  - host: bradyg-aks-dev.westus2.cloudapp.azure.com
+  - host: <your-prefix-here>.<your-region-here>.cloudapp.azure.com
     http:
       paths:
       - backend:
@@ -17,5 +17,5 @@ spec:
         path: /(.*)
   tls:
   - hosts:
-    - bradyg-aks-dev.westus2.cloudapp.azure.com
+    - <your-prefix-here>.<your-region-here>.cloudapp.azure.com
     secretName: tls-secret
