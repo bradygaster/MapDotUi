@@ -2,18 +2,20 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-staging
     kubernetes.io/ingress.class: nginx
-  name: ingress
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+  name: mapdot-ingress
 spec:
   rules:
-  - host: <your-prefix-here>.<your-region-here>.cloudapp.azure.com
+  - host: bradyg-aks-dev.westus2.cloudapp.azure.com
     http:
       paths:
       - backend:
           serviceName: mapdotui
           servicePort: 80
         path: /(.*)
-status:
-  loadBalancer:
-    ingress:
-    - {}
+  tls:
+  - hosts:
+    - bradyg-aks-dev.westus2.cloudapp.azure.com
+    secretName: tls-secret
